@@ -127,7 +127,7 @@ describe('Simple App', function () {
         assert.fail("Step 2: FAILED");
       }
 
-      // Step 2: Validate if login link is displayed after logout
+      // Step 3: Validate if login link is displayed after logout
       if (await funcIsElementVisible("Login link", LoginPageElements.lnkLoginLink)) {
         console.log("Step 3: PASSED");
       } else {
